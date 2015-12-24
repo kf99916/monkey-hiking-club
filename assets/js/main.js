@@ -254,7 +254,7 @@
 
                         skel.on('change', function() {
 
-                            if (skel.breakpoint('narrow').active)
+                            if (skel.breakpoint('narrower').active)
                                 (off)();
                             else
                                 (on)();
@@ -357,7 +357,7 @@
 
                     skel.on('change', function() {
 
-                        if (skel.breakpoint('narrow').active)
+                        if (skel.breakpoint('narrower').active)
                             (off)();
                         else
                             (on)();

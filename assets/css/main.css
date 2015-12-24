@@ -2235,6 +2235,20 @@ body.is-touch .spotlight {
     background-attachment: scroll;
 }
 
+.spotlight h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff;
+}
+
+.spotlight table {
+    text-align: center;
+    color: #ffffff;
+}
+
 
 /* Goto Next */
 
@@ -2826,7 +2840,7 @@ body.homepage.is-loading #header:after {
     .spotlight.left .content,
     .spotlight.right .content {
         padding: 4.5em 2.5em;
-        width: 25em;
+        width: 28em;
     }
     /* Basic */
     body,
