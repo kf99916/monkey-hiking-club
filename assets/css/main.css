@@ -2242,6 +2242,7 @@ body.is-touch .spotlight {
 .spotlight h5,
 .spotlight h6 {
     color: #ffffff;
+    margin-top: -0.7em;
 }
 
 .spotlight table {
