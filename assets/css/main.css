@@ -2249,6 +2249,10 @@ body.is-touch .spotlight {
     color: #ffffff;
 }
 
+.spotlight th.fix {
+    width: 2em;
+}
+
 
 /* Goto Next */
 
