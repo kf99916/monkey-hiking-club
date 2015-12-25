@@ -26,6 +26,18 @@
 </head>
 
 <body class="homepage">
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5&appId=117478114998939";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div id="page-wrapper">
         <!-- Header -->
         <div id="header">
@@ -39,6 +51,9 @@
                 <footer>
                     <ul class="icons">
                         <li><a href="https://www.facebook.com/groups/144048992461041" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li>
+                            <div class="fb-like" data-href="http://kf99916.github.io/monkey-hiking-club/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                        </li>
                     </ul>
                     <a href="#100Mountains" class="goto-next scrolly">Next</a>
                 </footer>
