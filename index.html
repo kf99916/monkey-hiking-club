@@ -29,14 +29,14 @@
     <!-- Facebook -->
     <div id="fb-root"></div>
     <script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5&appId=117478114998939";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5&appId=117478114998939";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
     <div id="page-wrapper">
         <!-- Header -->
@@ -56,13 +56,14 @@
                                 data-show-faces="true" data-share="true"></div>
                         </li>
                     </ul>
-                    <a href="#2016" class="goto-next scrolly">Next</a>
+                    <a href="#2017" class="goto-next scrolly">Next</a>
                 </footer>
             </div>
             <!-- Nav -->
             <nav id="nav">
                 <ul>
                     <li><a href="#2017" class="scrolly">2017 預計活動</a></li>
+                    <li><a href="#application" class="scrolly">主動揪團</a></li>
                     <li><a href="#100Mountains" class="scrolly">猴猴百岳登山隊</a></li>
                     <li><a href="#intermediate-mountains" class="scrolly">猴猴中級山登山隊</a></li>
                     <li>
@@ -228,6 +229,44 @@
                         </div>
                         ※ 僅供參考，若有不符，以領隊為準
                     </div>
+                </div>
+            </div>
+            <a href="#application" class="goto-next scrolly">Next</a>
+        </section>
+        <!-- application -->
+        <section id="application" class="spotlight style1 top">
+            <span class="image fit main"><img src="images/application.jpg" alt="" /></span>
+            <div class="content">
+                <header>
+                    <h2>主動揪團</h2>
+                </header>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <h3>中級山</h3>
+                        <ul>
+                            <li>加羅湖：2天2夜</li>
+                            <li>松蘿湖：2天2夜</li>
+                            <li>北插天山：1天</li>
+                            <li>四稜野溪溫泉：1天</li>
+                        </ul>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <h3>百岳</h3>
+                        <ul>
+                            <li>合歡群峰（5）：2天2夜</li>
+                            <li>玉山主峰（1）：2天2夜</li>
+                            <li>雪山主東峰（2）：3天2夜</li>
+                            <li>奇萊南華（2）：2天2夜</li>
+                            <li>嘉明湖（2）：3天3夜</li>
+                        </ul>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <h3>郊山</h3>
+                        <ul>
+                            <li>所有郊山皆可接受組團</li>
+                        </ul>
+                    </div>
+                    <a href="https://goo.gl/forms/MVGvqZyuTL4IHl773" class="button" target="_blank">揪團報名去</a>
                 </div>
             </div>
             <a href="#100Mountains" class="goto-next scrolly">Next</a>
@@ -674,20 +713,20 @@
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
     <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-71712138-1', 'auto');
-    ga('send', 'pageview');
+        ga('create', 'UA-71712138-1', 'auto');
+        ga('send', 'pageview');
     </script>
 </body>
 

@@ -2240,6 +2240,10 @@ body.is-touch .spotlight {
     margin-top: -0.7em;
 }
 
+.spotlight ul {
+    color: #ffffff;
+}
+
 .spotlight table {
     text-align: center;
     color: #ffffff;
